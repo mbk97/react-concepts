@@ -23,7 +23,7 @@ const Debouncing = () => {
     // };
     // getData();
 
-    // ** Without debouncing
+    // ** With debouncing
     const getData = () => {
       setTimeout(async () => {
         const response = await axios.get(
