@@ -1,10 +1,9 @@
 import "./App.css";
-
-import MyComponent from "./components/HOC/ComponentToUseHOC";
+import InfiniteScrollComponent from "./components/InfiniteScroll/InfiniteScrollComponent";
 function App() {
   return (
     <div>
-      <MyComponent />
+      <InfiniteScrollComponent />
     </div>
   );
 }
