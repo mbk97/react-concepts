@@ -16,3 +16,5 @@ export default function Greeting() {
 }
 
 // ** Note: There are several methods available in the legacy React API to work with this prop. These include React.Children.map, React.Children.forEach, React.Children.count, React.Children.only, React.Children.toArray.
+
+// ! Read React.Children use cases

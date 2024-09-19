@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-// ! High Order Components are function that takes a component, returns a new component and adfditional functionality
+// ! High Order Components are function that takes a component as an argument, returns a new component and additional functionality
 
 // ** They are often used for code reuse, cross-cutting concerns like authentication, logging, etc.
 
@@ -35,17 +35,32 @@ import React, { useEffect, useState } from "react";
 
 // ! FUNCTION COMPONENT
 
-const withAuth = (WrappedComponent) => {
+// const withAuth = (WrappedComponent) => {
+//   return (props) => {
+//     const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+//     useEffect(() => {
+//       // Check authentication logic, e.g., from local storage or server
+//       const storedAuth = localStorage.getItem("isAuthenticated");
+//       setIsAuthenticated(storedAuth === "true");
+//     }, []);
+
+//     return <WrappedComponent {...props} isAuthenticated={isAuthenticated} />;
+//   };
+// };
+
+// export default withAuth;
+
+const withAuth = (WrapppedComponent) => {
   return (props) => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
 
     useEffect(() => {
-      // Check authentication logic, e.g., from local storage or server
       const storedAuth = localStorage.getItem("isAuthenticated");
       setIsAuthenticated(storedAuth === "true");
     }, []);
 
-    return <WrappedComponent {...props} isAuthenticated={isAuthenticated} />;
+    return <WrapppedComponent {...props} isAuthenticated={isAuthenticated} />;
   };
 };
 
