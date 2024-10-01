@@ -1,4 +1,5 @@
 import "./App.css";
+import DynamicForm from "./components/DynamicForm/DynamicForm";
 import Timer from "./components/reducerForm/ReducerForm";
 // import SignupForm from "./components/reducerForm/ReducerForm";
 import { GlobalDebug } from "./components/removeConsoleLogInProd/removeConsoleLog";
@@ -16,7 +17,8 @@ function App() {
       {/* <SampleHOC description="I am the desc" /> */}
       {/* <ProviderDesignPattern /> */}
       {/* <ThrottledForm /> */}
-      <Timer />
+      {/* <Timer /> */}
+      <DynamicForm />
     </div>
   );
 }

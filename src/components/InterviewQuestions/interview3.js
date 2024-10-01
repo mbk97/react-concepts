@@ -245,3 +245,136 @@ const handleAddItem = async () => {
 // * Defining functions inline in JSX can lead to unnecessary re-renders because a new function instance is created on each render. When you pass an inline function as a prop to a child component, that child component sees a new function reference every time the parent re-renders. This can trigger re-renders of the child component, even if its props haven't actually changed.
 
 // ** By using useCallback, you ensure that the function reference remains stable, preventing unnecessary re-renders of child components and improving performance. This is particularly important in larger applications where re-rendering components can lead to performance bottlenecks.
+
+// ! Component Chunking
+
+//** also known as code splitting, is a technique used in large React applications to optimize performance by splitting the application into smaller chunks or bundles that can be loaded on demand. This helps reduce the initial load time by only loading the necessary components when they are needed.
+
+//** Why Component Chunking Is Important
+
+// Improved Initial Load Time: Instead of loading the entire application at once, component chunking allows loading only the parts of the app required to display the initial view, speeding up the load time.
+
+// Efficient Resource Usage: It ensures that users download only the code necessary for the features they are interacting with.
+
+// Lazy Loading: Components that aren't immediately needed can be "lazy-loaded," meaning they are loaded only when the user navigates to a route or triggers an action that requires those components.
+
+// ** Techniques for Component Chunking
+// React Router Code Splitting
+// React.lazy and Suspense
+//  Dynamic Imports with Webpack
+
+// ! Advanced Hooks
+
+//*UseRef()
+
+// * Purpose:
+// Used for persisting values across renders without causing a re-render.
+// Access DOM elements directly.
+
+function InputFocus() {
+  const inputRef = useRef(null);
+
+  const focusInput = () => {
+    inputRef.current.focus(); // Direct DOM manipulation
+  };
+
+  return (
+    <div>
+      <input ref={inputRef} type="text" />
+      <button onClick={focusInput}>Focus Input</button>
+    </div>
+  );
+}
+
+//! Custom hook patterns (e.g., debounce, fetch hooks)
+
+//*  Debounce Hook:
+
+// A debounce hook delays the execution of a function (like an API call) until the user has stopped typing or interacting for a certain period. This is useful for optimizing performance, especially in scenarios like search input fields.
+
+function useDebounce(value, delay) {
+  const [debouncedValue, setDebouncedValue] = useState(value);
+
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebouncedValue(value);
+    }, delay);
+
+    return () => {
+      clearTimeout(handler); // Clean up if value changes before delay
+    };
+  }, [value, delay]);
+
+  return debouncedValue;
+}
+
+function SearchInput() {
+  const [query, setQuery] = useState("");
+  const debouncedQuery = useDebounce(query, 500);
+
+  useEffect(() => {
+    if (debouncedQuery) {
+      // Perform API call or other expensive operation here
+      console.log("Fetching results for:", debouncedQuery);
+    }
+  }, [debouncedQuery]);
+
+  return (
+    <input
+      type="text"
+      value={query}
+      onChange={(e) => setQuery(e.target.value)}
+      placeholder="Search..."
+    />
+  );
+}
+
+//* Throttle Hook
+
+// A throttle hook limits how often a function can be executed within a certain time period. Unlike debounce, which delays execution until inactivity, throttle ensures that the function is called at most once every specified interval.
+
+function useThrottle(value, limit) {
+  const [throttledValue, setThrottledValue] = useState(value);
+
+  useEffect(() => {
+    const lastRan = Date.now();
+
+    const handler = setTimeout(() => {
+      if (Date.now() - lastRan >= limit) {
+        setThrottledValue(value);
+      }
+    }, limit - (Date.now() - lastRan));
+
+    return () => {
+      clearTimeout(handler);
+    };
+  }, [value, limit]);
+
+  return throttledValue;
+}
+
+function ScrollTracker() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const throttledScrollPosition = useThrottle(scrollPosition, 1000);
+
+  const handleScroll = () => {
+    setScrollPosition(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  return <p>Scroll Position: {throttledScrollPosition}</p>;
+}
+
+//* Benefits of Custom Hook Patterns
+
+// Reusability: Custom hooks allow you to reuse logic across multiple components, avoiding code duplication.
+
+// Separation of Concerns: By encapsulating logic in hooks, you separate concerns and improve code organization.
+
+// Cleaner Components: Moving logic into hooks makes components leaner and easier to maintain.
+
+// Composability: Custom hooks can be composed with other hooks to create more complex behavior
