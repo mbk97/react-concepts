@@ -4,6 +4,11 @@ import Timer from "./components/reducerForm/ReducerForm";
 // import SignupForm from "./components/reducerForm/ReducerForm";
 import { GlobalDebug } from "./components/removeConsoleLogInProd/removeConsoleLog";
 import ThrottledForm from "./components/Throttling/Throttling";
+import { ContainerComponents } from "./components/udemyDesignPattern/containerComponents/ContainerComponents";
+import {
+  ContainerComponentsUdemy,
+  UserInfo,
+} from "./components/udemyDesignPattern/containerComponents/ContainerComponentsUdemy";
 
 function App() {
   // useEffect(() => {
@@ -18,7 +23,11 @@ function App() {
       {/* <ProviderDesignPattern /> */}
       {/* <ThrottledForm /> */}
       {/* <Timer /> */}
-      <DynamicForm />
+      {/* <DynamicForm /> */}
+      {/* <ContainerComponents /> */}
+      <ContainerComponentsUdemy userId="3" resourceUrl="api.com">
+        <UserInfo />
+      </ContainerComponentsUdemy>
     </div>
   );
 }
