@@ -1,5 +1,13 @@
+import React from "react";
 import "./App.css";
 import DynamicForm from "./components/DynamicForm/DynamicForm";
+import { UsageList } from "./components/InterviewQuestions/GenericDataType";
+import {
+  TestOmitUserCard,
+  TestPickUserCard,
+  TestRequiredUserCard,
+  TestUserCard,
+} from "./components/InterviewQuestions/UtilityTypes";
 import Timer from "./components/reducerForm/ReducerForm";
 // import SignupForm from "./components/reducerForm/ReducerForm";
 import { GlobalDebug } from "./components/removeConsoleLogInProd/removeConsoleLog";
@@ -25,9 +33,13 @@ function App() {
       {/* <Timer /> */}
       {/* <DynamicForm /> */}
       {/* <ContainerComponents /> */}
-      <ContainerComponentsUdemy userId="3" resourceUrl="api.com">
+      {/* <ContainerComponentsUdemy userId="3" resourceUrl="api.com">
         <UserInfo />
-      </ContainerComponentsUdemy>
+      </ContainerComponentsUdemy> */}
+      {/* <UsageList /> */}
+      {/* <TestPickUserCard name="mubarak" email="mbk" /> */}
+      <TestOmitUserCard name="mubarak" email="mbk" age={40} />
+      <h1>hello</h1>
     </div>
   );
 }
