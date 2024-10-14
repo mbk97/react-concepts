@@ -155,7 +155,7 @@ export default App;
 
 // ** Context Changes: If a component is consuming context via useContext or Context.Consumer, a change in the context value will trigger a re-render of all components that use that context.
 
-// ** Parent Component Re-renders: If a parent component re-renders, all its chil to re-render
+// ** Parent Component Re-renders: If a parent component re-renders, all its children to re-render
 
 //! Optimizing Re-renders
 
@@ -232,33 +232,6 @@ class MyComponent extends React.Component {
 // ** React Memo: React.memo is a higher-order component (HOC) used to optimize functional components by memoizing the result. It automatically skips re-rendering if the props haven't changed (via shallow comparison).
 
 // ** By default, React.memo performs a shallow comparison of the component's props. If none of the props have changed (i.e., they’re shallowly equal), the component will not re-render.
-
-// ! HOC
-
-//**  A higher-order component takes in a component as an argument and returns a supercharged component injected with additional data or functionality. The possibility of HOCs in React is due to React preference of composition over inheritance.
-
-const highOrderComponent = (Component) => {
-  return class HOC extends React.Component {
-    state = {
-      name: "John Doe",
-    };
-
-    render() {
-      return <Component name={this.state.name} {...this.props} />;
-    }
-  };
-};
-
-const AvatarComponent = (props) => {
-  return (
-    <div class="flex items-center justify-between">
-      <div class="rounded-full bg-red p-4">{props.name}</div>
-      <div>
-        <p>I am a {props.description}.</p>
-      </div>
-    </div>
-  );
-};
 
 //! Render Props Pattern
 
@@ -359,7 +332,7 @@ function UncontrolledForm() {
 
 // ** Dependency arrays in useEffect: Always include all dependencies in the array to ensure your side effects run as expected.
 
-// **Cleanup functions: Always return cleanup functions in useEffect to avoid memory leaks.
+// ** Cleanup functions: Always return cleanup functions in useEffect to avoid memory leaks.
 
 // ** Use libraries when scaling: For large-scale applications, consider using libraries like React Query, Redux, or Zustand for managing side effects more efficiently.
 

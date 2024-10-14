@@ -2,9 +2,9 @@
 //**  useEffect is a hook that allows you to perform side effects in functional components. Side effects could include:
 
 //**  Fetching data from an API
-//* Subscribing to events (e.g., window resize)
-//* Directly manipulating the DOM
-//* Setting up timers
+//*   Subscribing to events (e.g., window resize)
+//*   Directly manipulating the DOM
+//*   Setting up timers
 
 // ! There are 3 Phases involved in the useEffect hook
 
