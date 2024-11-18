@@ -17,6 +17,7 @@ import {
   ContainerComponentsUdemy,
   UserInfo,
 } from "./components/udemyDesignPattern/containerComponents/ContainerComponentsUdemy";
+import UsageExample from "./components/udemyDesignPattern/hoc/UsageExample";
 
 function App() {
   // useEffect(() => {
@@ -38,8 +39,9 @@ function App() {
       </ContainerComponentsUdemy> */}
       {/* <UsageList /> */}
       {/* <TestPickUserCard name="mubarak" email="mbk" /> */}
-      <TestOmitUserCard name="mubarak" email="mbk" age={40} />
-      <h1>hello</h1>
+      {/* <TestOmitUserCard name="mubarak" email="mbk" age={40} />
+      <h1>hello</h1> */}
+      <UsageExample />
     </div>
   );
 }

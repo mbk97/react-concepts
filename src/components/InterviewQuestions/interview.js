@@ -56,7 +56,7 @@
 
 //**  Reconciliation Process: based on the differences identified, React determines the most efficient way to update the real DOM. Only the parts of the real DOM that need to be updated are changed, rather than re-rendering the entire UI. This selective updating is quick and performant.
 
-// ** Update to the Real DOM: finally, React applies the necessary changes to the real DOM. This might involve adding, removing, or updating elements based on the differences detected in step 3.
+//** Update to the Real DOM: finally, React applies the necessary changes to the real DOM. This might involve adding, removing, or updating elements based on the differences detected in step 3.
 
 // ! Handling events in React
 
@@ -70,8 +70,9 @@
 
 // ! React Portals
 
-//**   portals provide a way to render children into a different part of the DOM than their parent component.
-//**   This can be useful for elements that need to break out of their parent container’s hierarchy, such as modals, tooltips, dropdowns, or any UI component that requires positioning outside the normal DOM tree.
+//**  portals provide a way to render children into a different part of the DOM than their parent component.
+
+//**  This can be useful for elements that need to break out of their parent container’s hierarchy, such as modals, tooltips, dropdowns, or any UI component that requires positioning outside the normal DOM tree.
 
 // Creating a Portal
 // To create a portal, you can use the ReactDOM.createPortal() function. This function takes two arguments:

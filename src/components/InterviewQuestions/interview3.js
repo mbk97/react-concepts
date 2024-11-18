@@ -242,6 +242,7 @@ const handleAddItem = async () => {
 // * Avoid Anonymous Functions in JSX : Defining functions inline in JSX can lead to unnecessary re-renders. Move function definitions outside the render method or use useCallback.
 
 // ! Defining functions inline in JSX can lead to unnecessary re-renders.
+
 // * Defining functions inline in JSX can lead to unnecessary re-renders because a new function instance is created on each render. When you pass an inline function as a prop to a child component, that child component sees a new function reference every time the parent re-renders. This can trigger re-renders of the child component, even if its props haven't actually changed.
 
 // ** By using useCallback, you ensure that the function reference remains stable, preventing unnecessary re-renders of child components and improving performance. This is particularly important in larger applications where re-rendering components can lead to performance bottlenecks.
