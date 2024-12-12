@@ -18,6 +18,7 @@ import {
   UserInfo,
 } from "./components/udemyDesignPattern/containerComponents/ContainerComponentsUdemy";
 import UsageExample from "./components/udemyDesignPattern/hoc/UsageExample";
+import ReRenders from "./components/udemyDesignPattern/ReRenders/ReRenders";
 
 function App() {
   // useEffect(() => {
@@ -41,7 +42,8 @@ function App() {
       {/* <TestPickUserCard name="mubarak" email="mbk" /> */}
       {/* <TestOmitUserCard name="mubarak" email="mbk" age={40} />
       <h1>hello</h1> */}
-      <UsageExample />
+      {/* <UsageExample /> */}
+      <ReRenders />
     </div>
   );
 }
