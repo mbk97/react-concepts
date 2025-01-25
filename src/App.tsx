@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import DynamicForm from "./components/DynamicForm/DynamicForm";
 import { UsageList } from "./components/InterviewQuestions/GenericDataType";
@@ -19,6 +19,10 @@ import {
 } from "./components/udemyDesignPattern/containerComponents/ContainerComponentsUdemy";
 import UsageExample from "./components/udemyDesignPattern/hoc/UsageExample";
 import ReRenders from "./components/udemyDesignPattern/ReRenders/ReRenders";
+// import { CounterButton, CounterDisplay, CounterProvider } from "./context";
+import FramerRender from "./components/FramerMotion/FramerRender";
+import { Route, Routes } from "react-router-dom";
+import PermissionRender from "./components/Permissions/RoleBasedAccessControl/PermissionRender";
 
 function App() {
   // useEffect(() => {
@@ -43,7 +47,13 @@ function App() {
       {/* <TestOmitUserCard name="mubarak" email="mbk" age={40} />
       <h1>hello</h1> */}
       {/* <UsageExample /> */}
-      <ReRenders />
+      {/* <ReRenders /> */}
+      {/* <CounterProvider>
+        <CounterDisplay />
+        <CounterButton />
+      </CounterProvider> */}
+
+      <PermissionRender />
     </div>
   );
 }

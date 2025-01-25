@@ -2,6 +2,8 @@
 
 // ** Components: They are the building blocks of React applications. They allow you to split the UI into independent, reusable pieces.
 
+// ** A React element is a plain object that describes what you want to see on the screen. It is the result of invoking a React component (or using JSX syntax).
+
 // ** Types
 
 //   Functional Components: These are JavaScript functions that return React elements.
@@ -64,6 +66,7 @@
 
 // ! Handling form state in React
 //**  Key Concepts:
+
 // ** Form State: The form's state is managed by React's useState (or useReducer in complex cases). Each input field’s value is tied to the component state, which is updated on change.
 
 // ** Controlled Components: In React, form elements (e.g., input, textarea) are typically controlled components, meaning their values are controlled by the state.
@@ -187,6 +190,8 @@ export default App;
 
 // ** It only re-renders the component if its props change. If the props remain the same, React skips rendering and reuses the last rendered result.
 
+// ! Examples of Higher Order Components
+
 // import React from 'react';
 
 // const MyComponent = React.memo((props) => {
@@ -297,7 +302,7 @@ function ControlledForm() {
 // Easy to validate and manipulate input data.
 // The component has full control over the input state.
 
-// **Disadvantages:
+// ** Disadvantages:
 // Can lead to more boilerplate code.
 // May introduce performance issues if many components are constantly re-rendering.
 

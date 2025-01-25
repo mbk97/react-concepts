@@ -107,7 +107,9 @@ function LongPollingComponent() {
 // Key Points:
 
 //* Polling Interval: You can control the polling interval using setTimeout. In the example, the polling interval is set to 5 seconds.
+
 //* Continuous Polling: After each successful request, the client immediately starts a new request.
+
 //* Error Handling: Handle errors gracefully, possibly using retry mechanisms if necessary.
 
 // ! Real-Time Updates with WebSockets

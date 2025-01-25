@@ -12,8 +12,6 @@
 
 // ! Tell Me about your strength
 
-// * Taking full ownership of projects: One of my key strengths is my ability to take full ownership of projects from start to finish. This means that I not only contribute technically, but I also take responsibility for the overall success of the project. I approach projects holistically, ensuring that I fully understand the objectives, scope, and potential challenges from the beginning.
-
 // ** Communication: I ensure that all stakeholders are aligned and informed throughout the project’s lifecycle. Whether it's collaborating with team members, clients, or other departments, I make sure that expectations are clear and that everyone involved has the information they need to contribute effectively.
 
 // ! Tell Me about your weakness
@@ -26,17 +24,7 @@
 
 // ! What do you know about the organisation
 
-// * Zenith Bank: One of the largest banks in Nigeria by total assets
-
-// * Zenith  commenced  operations  in  1990  and  became  a  public  limited  liability company  in  2004,  with  shares  listed  on  the  Nigerian  Stock  Exchange.  The  bank provides  universal  banking  services  to  corporate,  commercial  and individual customers.
-
-// *  Zenith  had  various  subsidiaries,  including  Zenith  Securities  Limited, Zenith General Insurance Company Limited, Zenith Registrars Limited, Zenith Bank (Ghana) Limited, Zenith Pension Custodian Limited,
-
-// * Zenith Bank is a leader in technological innovation within Nigeria's banking sector, demonstrated by the launch of its AI-powered chatbot, ZiVA (Zenith Intelligent Virtual Assistant). ZiVA, available on WhatsApp, allows customers to perform financial transactions and access real-time customer support directly from their mobile devices, providing a seamless and efficient banking experience.
-
-// ! Core values of Zenith Bank
-
-// * Integrity, Professionalism, Excellence, Ethics, Commitment, Transparency, Service.
+// ! Core values of our organization
 
 // ! What would an excellent performance look like in this role
 
