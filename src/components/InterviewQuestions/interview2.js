@@ -9,7 +9,6 @@
 // ! There are 3 Phases involved in the useEffect hook
 
 // ** 1. Mounting Phase
-
 // These actions are side effects because they don’t directly contribute to rendering the UI but affect it indirectly
 
 // ** Behind the scenes, here's what happens:
@@ -245,7 +244,6 @@ function Timer() {
 //** React.lazy is a built-in function in React that enables code-splitting by dynamically importing components. This helps improve the performance of your app by only loading the components when they are needed (on-demand loading).
 
 // usage
-
 import React, { Suspense } from "react";
 
 // Dynamically import the component
@@ -347,7 +345,7 @@ function Aphp() {
 //* Cons:
 // Does not catch errors in event handlers or asynchronous code (you need to handle those separately).
 
-//**   try-catch in Hooks:
+//**  try-catch in Hooks:
 // Purpose: A try-catch block in hooks is used to handle errors in synchronous code or inside asynchronous logic (e.g., API calls) when you're dealing with specific operations like fetching data or executing functions.
 
 // ** Key Differences:
