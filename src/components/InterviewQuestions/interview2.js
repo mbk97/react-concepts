@@ -78,6 +78,7 @@ function Counter() {
 // Action object: Typically, an action has a type property (describing what kind of action it is) and an optional payload that can hold additional data.
 
 //** When to use useReducer over useState:
+
 // When you have multiple pieces of related state that change together.
 
 // When the state logic is complex (e.g., nested or interdependent states).
@@ -88,8 +89,6 @@ function Counter() {
 
 // ** Example: Complex State Management
 
-import React, { useReducer } from "react";
-
 const initialStateTwo = {
   username: "",
   email: "",
@@ -98,7 +97,7 @@ const initialStateTwo = {
   errors: {},
 };
 
-function reducer(state, action) {
+function reducer2(state, action) {
   switch (action.type) {
     case "SET_FIELD_VALUE":
       return {
@@ -118,7 +117,7 @@ function reducer(state, action) {
 }
 
 function SignupForm() {
-  const [state, dispatch] = useReducer(reducer, initialStateTwo);
+  const [state, dispatch] = useReducer(reduce2, initialStateTwo);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -213,7 +212,7 @@ function TextInputWithFocusButton() {
 
 //* useRef can also be used to store values that persist between renders but do not trigger re-renders when they change. This is useful for variables like timers, IDs, or any value that you want to update without causing the component to re-render.
 
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 
 function Timer() {
   const [seconds, setSeconds] = useState(0);
@@ -244,7 +243,7 @@ function Timer() {
 //** React.lazy is a built-in function in React that enables code-splitting by dynamically importing components. This helps improve the performance of your app by only loading the components when they are needed (on-demand loading).
 
 // usage
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 
 // Dynamically import the component
 const LazyComponent = React.lazy(() => import("./LazyComponent"));
@@ -297,7 +296,7 @@ export default App;
 // When you want to load a list of lazy components in a specific order.
 // When you need to group components and ensure they display either simultaneously or in a specific loading order.
 
-import React, { Suspense, SuspenseList } from "react";
+import { SuspenseList } from "react";
 
 // Lazy-load multiple components
 const LazyComponentA = React.lazy(() => import("./LazyComponentA"));

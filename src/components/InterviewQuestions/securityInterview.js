@@ -130,10 +130,10 @@ app.listen(3001, () => {
 
 // Frontend example
 
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 
-function App() {
+function Appk() {
   const [csrfToken, setCsrfToken] = useState("");
 
   useEffect(() => {
@@ -152,7 +152,7 @@ function App() {
           headers: {
             "CSRF-Token": csrfToken, // Include the token in headers
           },
-        },
+        }
       );
       alert("Request succeeded");
     } catch (error) {
@@ -167,3 +167,5 @@ function App() {
     </div>
   );
 }
+
+export { Appk, App };

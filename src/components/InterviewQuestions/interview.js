@@ -103,7 +103,7 @@ const Modal = ({ children, onClose }) => {
       <div>{children}</div>
       <button onClick={onClose}>Close</button>
     </div>,
-    document.getElementById("modal-root"), // Rendered outside of the root div
+    document.getElementById("modal-root") // Rendered outside of the root div
   );
 };
 
@@ -243,7 +243,7 @@ class MyComponent extends React.Component {
 
 // ** The Render Props pattern in React is a technique for sharing code between components by passing a function as a prop. This function controls what should be rendered, allowing you to abstract and reuse functionality in various components.
 
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 // DataFetcher component using render props to pass down fetched data
 const DataFetcher = ({ url, render }) => {

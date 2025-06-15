@@ -1,14 +1,10 @@
 // ! Tell Me about yourself
 
-// * I am a web developer with close to 4 years of professional experience. My journey began in 2021 when I joined F&K Savings as a front-end developer. There, I worked with JavaScript, TypeScript, React, Styled Components, and Redux to develop the F&K Savings user dashboard, where customers could carry out transactions like savings, withdrawals, and investing in various offers.
+//* I'm a web developer with nearly 4 years of experience building scalable front-end solutions across FinTech, EdTech, and banking. I started out at F&K Savings, building a React-based dashboard that enabled customers to manage their savings and investments. At Pledre, I improved product experience by implementing key features and custom landing pages for enterprise clients using Next.js.
 
-// * After my time at F&K, I moved to Pledre, an EdTech company similar to Udemy. My primary responsibility was optimizing the existing web app by fixing bugs and implementing features such as the testimonial section, gift-a-course feature, and crowd classroom. I also developed custom landing pages for enterprise subscribers using Next.js.
+//* Currently, I work at Wema Bank, where I’ve modernized several high-impact systems—like the NIP in-branch transfer platform and a central customer data tool that saved over ₦8 million in maintenance costs. I also played a key role in launching the new Wema Bank website and developing internal portals used across compliance, audit, and FinTech operations.
 
-// * Currently, I work at Wema Bank as a front-end developer. My role involves automating business processes and modernizing legacy applications, such as the NIP in-branch web app, ensuring smooth financial transactions. I also redeveloped the customer master data management tool, which serves as a central repository for all wema bank customer data, and this helped the bank save over 8 million naira in maintenance fees. Additionally, I was a core member of the team that redeveloped the new Wema Bank website.
-
-//* Overall, I am passionate about creating high-quality web products that align with business needs and customer satisfaction.
-
-// * I believe my experience and skills make me a strong candidate for this role, and I’m excited about the opportunity to bring my expertise to your team.
+// * I’m passionate about crafting solutions that align business objectives with excellent user experience, and I’m now looking to contribute at a more strategic level—bringing both technical expertise and product insight to help teams scale efficiently.".
 
 // ! Tell Me about your strength
 
@@ -36,23 +32,29 @@
 
 // ! Tell me an achievement you are proud of
 
-// ! Situation:
-//**  At Wema Bank, the Customer Master Data Management (CMDM) portal was inefficient, leading to inaccurate decision-making and increased operational costs. It was critical for the bank to improve the system to streamline processes for internal users across multiple departments.
+// ! S – Situation:
 
-//! Task:
-//* I was tasked with redeveloping the CMDM portal to enhance its performance, improve decision-making speed, and reduce operational costs for over 500 internal users.
+//* At Wema Bank, the Customer Master Data Management (CMDM) portal was underperforming. It caused delays in decision-making, inefficiencies across departments, and increased operational costs. The system served over 500 internal users, so improving it was a top priority.
 
-//! Action:
-//* Using React for the front-end and Zustand for state management, I developed a highly responsive system with the following key features:
+//! T – Task:
 
-//* Saved Search Filters: Implemented functionality to allow users to save custom search filters. These preferences were persisted using Zustand's local storage capabilities, enabling users to quickly apply their filters without resetting them during sessions.
+//* I was tasked with redeveloping the CMDM portal to improve performance, streamline access, and enhance data-driven decision-making across the bank.
 
-// * Data Trends with Charts: Integrated Chart.js to visually represent data trends such as user activity and key performance metrics. This helped stakeholders monitor real-time data and make informed decisions.
+// ! A – Action:
 
-//* Efficient User & Role Management: I implemented a user management system to ensure that features are available based on each user's access level and permissions. This helped provide secure, tailored access across the platform
+//* I rebuilt the portal using React for the front end and Zustand for efficient state management. Key improvements included:
 
-//! Result:
-//* The new CMDM portal significantly improved decision-making and operational efficiency, resulting in cost savings of ₦8 million. It also enhanced the experience for internal users, contributing to smoother operations across multiple departments.
+//* Saved search filters that persisted across sessions using Zustand’s local storage, saving users time and effort.
+
+//* Dynamic data visualization using Chart.js to help stakeholders monitor activity and performance trends in real time.
+
+//* Role-based user management, ensuring secure, permission-specific access to different sections of the portal.
+
+//* Throughout the process, I prioritized performance optimization, UX improvements, and maintainable architecture.
+
+//! R – Result:
+
+//* The upgraded portal led to ₦8 million in cost savings, streamlined decision-making, and a much smoother experience for internal users across departments.
 
 // ! Why should we hire you over other qualified candidates?
 
