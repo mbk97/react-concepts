@@ -1,6 +1,6 @@
 // ! Tell Me about yourself
 
-//* I'm a web developer with nearly 4 years of experience building scalable front-end solutions across FinTech, EdTech, and banking. I started out at F&K Savings, building a React-based dashboard that enabled customers to manage their savings and investments. At Pledre, I improved product experience by implementing key features and custom landing pages for enterprise clients using Next.js.
+//* I'm a web developer with 4 years of experience building scalable (Building scalable frontend solutions means writing code and creating systems that are clean, reusable, performant, and flexible enough to handle more users, more features, and future updates without major rewrites) front-end solutions across FinTech, EdTech, and banking. I started out at F&K Savings, building a React-based dashboard that enabled customers to manage their savings and investments. At Pledre, I improved product experience by implementing key features and custom landing pages for enterprise clients using Next.js.
 
 //* Currently, I work at Wema Bank, where I’ve modernized several high-impact systems—like the NIP in-branch transfer platform and a central customer data tool that saved over ₦8 million in maintenance costs. I also played a key role in launching the new Wema Bank website and developing internal portals used across compliance, audit, and FinTech operations.
 
@@ -9,6 +9,8 @@
 // ! Tell Me about your strength
 
 // ** Communication: I ensure that all stakeholders are aligned and informed throughout the project’s lifecycle. Whether it's collaborating with team members, clients, or other departments, I make sure that expectations are clear and that everyone involved has the information they need to contribute effectively.
+
+// * User-Centric Mindset: I have a strong ability to think from the user’s perspective, which allows me to identify and resolve usability issues early. This means I pay close attention to the overall flow and experience of applications — ensuring they’re intuitive, efficient, and aligned with how real users interact with them. In environments like banking and fintech, where user trust and ease of navigation are crucial, this mindset ensures that the solutions I build are not only functional but also user-friendly and accessible.
 
 // ! Tell Me about your weakness
 
@@ -19,8 +21,10 @@
 // * I used to get nervous giving presentations, so I enrolled on a course to improve my public speaking.
 
 // ! What do you know about the organisation
+// * Established in 2024, Alpha Morgan Bank is a customer-centric, innovative, and solutions-driven commercial bank. It won Financial Times & Statista (Alpha Morgan Capital) Africa's Fastest Growing Companies.
 
-// ! Core values of our organization
+// ! Core values of our organization (Aplha Morgan)
+// * Innovation , Continuous Learning, Teamwork, Respect, Professionalism, Transparency, Customer Satisfaction
 
 // ! What would an excellent performance look like in this role
 
@@ -58,13 +62,9 @@
 
 // ! Why should we hire you over other qualified candidates?
 
-// ** What sets me apart is my hands-on experience in both FinTech and traditional banking, which gives me a deep understanding of the regulatory and security requirements critical in the financial sector. I've implemented solutions that enhance customer engagement while maintaining strict security protocols, ensuring compliance with industry standards.
+// ** What sets me apart is my hands-on experience in both traditional banking and fintech, which gives me a deep understanding of  security, and operational requirements of financial institutions. At Wema Bank, I’ve built critical internal tools like credit risk portals, real-time card monitoring systems, and core banking solutions — all while improving efficiency and saving millions in operational costs.
 
-// ** Beyond my technical skills, I’m committed to collaborating with teams to drive business goals, improve customer experiences, reduce operational costs, and drive digital transformation, which aligns with the strategic objectives of your institution.
-
-// ! Why do you want this job
-
-// * I’m excited about this opportunity because it aligns closely with both my technical skills and my professional aspirations. With experience at organizations like Wema Bank, Pledre, and F&K Savings, I’ve developed a strong foundation in web development across the finance and tech sectors. I’m particularly drawn to this role because i am sure it will involve building innovative and  user-centric solutions, which has always been a focus of my work.
+// ** Beyond technical skills, I focus on aligning development with business objectives. I’m confident that this blend of engineering experience and financial domain knowledge will allow me to contribute immediately and meaningfully to Alpha Morgan’s digital transformation efforts.
 
 // ! How would you describe yourself
 
@@ -73,6 +73,10 @@
 // ! Can you work under pressure
 
 // * Absolutely, I’m comfortable working under pressure and see it as an opportunity to showcase my problem-solving skills and adaptability. In previous roles, especially in high-stakes environments like finance and fintech, I've often had to meet tight deadlines while maintaining a high standard of quality in my work. For example, at Wema Bank, I was part of projects where quick, reliable solutions were critical to ensure smooth customer experiences and compliance within the banking insutry. I’ve developed strategies to manage stress, prioritize tasks, and stay focused on achieving results, all while keeping a positive and proactive approach.
+
+// !Why do you want to leave Wema
+
+// * Wema Bank has equipped me with strong technical and collaborative skills, and I’m grateful for the experience. However, I’m now seeking a new challenge where I can apply these skills in a dynamic, fast-growing environment like Alpha Morgan — one that aligns more closely with my long-term goals in fintech innovation and scalable software development.
 
 // ! Do you have any questions
 
