@@ -1,3 +1,5 @@
+// ! --legacy-peer-deps tells npm to ignore version conflicts between packages — for example, when one package needs an older React version and another needs a newer one — allowing everything to install even if their dependencies don’t match.
+
 // ! useEffect
 //**  useEffect is a hook that allows you to perform side effects in functional components. Side effects could include:
 
@@ -34,7 +36,7 @@
 
 // ** Ideal for cases where you need to measure layout, perform operations that need to be reflected in the current frame, or make immediate DOM manipulations that affect layout.
 
-// !useReducer hook and complex state management
+// ! useReducer hook and complex state management
 
 // ** The useReducer hook in React is a great alternative to useState when managing more complex state logic, especially when the state depends on previous values or there are multiple actions that can affect it. It’s similar to Redux but scoped to a single component (or can be shared using a context)
 

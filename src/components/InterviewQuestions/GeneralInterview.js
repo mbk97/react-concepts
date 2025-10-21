@@ -6,6 +6,16 @@
 
 // * I’m passionate about crafting solutions that align business objectives with excellent user experience, and I’m now looking to contribute at a more strategic level—bringing both technical expertise and product insight to help teams scale efficiently.".
 
+// ! Tell me about yourself, senior level
+
+//  💬 Version 1 – Concise (1 min):
+
+//* “I’m Mubarak Muhammed, a Software Engineer with 4 years of experience building scalable web and mobile applications across FinTech, Banking, and EdTech. In my current role at Wema Bank, I’ve led the architecture and development of mission-critical systems like the Pan-African Payment Settlement System and the Credit Risk Assessment Portal, both of which improved operational efficiency and compliance across the bank. Beyond coding, I’ve also mentored junior developers, driven code quality through reviews, and collaborated cross-functionally with product and compliance teams to deliver impactful solutions. What excites me most about senior engineering roles is not just solving technical problems, but shaping systems and teams that scale with the business.”
+
+// 💬 Version 2 – Storytelling (2–3 min):
+
+//* “My journey into software engineering started with a strong foundation in physics, but quickly grew into a passion for solving complex problems with code. Over the past 4 years, I’ve worked across FinTech, EdTech, and now banking, where I’ve architected large-scale solutions like the Pan-African Payment Settlement System — enabling cross-border transactions across multiple countries — and a Credit Risk Assessment Portal that automated loan risk scoring, reducing manual review time by 60%. At Wema Bank, I’ve not only delivered technical solutions but also taken ownership of end-to-end projects, worked closely with business stakeholders, and mentored junior developers to raise the overall capability of the team. I see myself as someone who can bridge the gap between technical depth and business outcomes, and that’s the perspective I bring as a senior engineer.”
+
 // ! Tell Me about your strength
 
 // ** Communication: I ensure that all stakeholders are aligned and informed throughout the project’s lifecycle. Whether it's collaborating with team members, clients, or other departments, I make sure that expectations are clear and that everyone involved has the information they need to contribute effectively.
@@ -21,10 +31,8 @@
 // * I used to get nervous giving presentations, so I enrolled on a course to improve my public speaking.
 
 // ! What do you know about the organisation
-// * Established in 2024, Alpha Morgan Bank is a customer-centric, innovative, and solutions-driven commercial bank. It won Financial Times & Statista (Alpha Morgan Capital) Africa's Fastest Growing Companies.
 
-// ! Core values of our organization (Aplha Morgan)
-// * Innovation , Continuous Learning, Teamwork, Respect, Professionalism, Transparency, Customer Satisfaction
+// ! Core values of our organization
 
 // ! What would an excellent performance look like in this role
 

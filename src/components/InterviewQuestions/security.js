@@ -103,3 +103,11 @@ test();
 // * A vulnerability from patched and outdated libraries leads to vulnerabilities. This is caused by neglecting packages and libraries in the web app
 
 // ! IDENTIFICATION AND AUTHENTICATION FAILURES
+
+//! 🔑 Difference Between AuthN vs AuthZ
+
+//* Authentication (AuthN) → “Who are you?”
+//* Verifies identity (login with email/password, OAuth, SSO, etc.).
+
+//* Authorization (AuthZ) → “What are you allowed to do?”
+//* Decides access rights (can this user view orders, delete products, access /admin?).
