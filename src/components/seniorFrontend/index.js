@@ -149,7 +149,7 @@
 
 //* In my experience, disagreements are best handled by focusing on shared goals and using data to guide decisions. For example, while redeveloping the Customer Master Data Management (CMDM) portal at Wema Bank, there was a disagreement between product managers—who wanted features released quickly—and the dev team, who prioritized scalability and technical debt.
 
-//* I organized a discussion where both sides presented their reasoning, then I quantified the trade-offs: showing how architectural improvements would save ₦8M annually and improve efficiency for 500+ internal users. We agreed on a compromise—ship a minimal viable feature set early, while scheduling scalability improvements for the next sprint.
+//* I organized a discussion where both sides presented their reasoning, then I quantified the trade-offs: showing how architectural improvements would save ₦8M annually and improve efficiency for 500+ internal users. We agreed on a compromise— ship a minimal viable feature set early, while scheduling scalability improvements for the next sprint.
 
 //* That experience reinforced my approach: listen first, use data to depersonalize the debate, and align everyone around the business impact. This way, disagreements lead to stronger solutions rather than friction.
 

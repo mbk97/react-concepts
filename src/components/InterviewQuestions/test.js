@@ -98,3 +98,58 @@
 //! 2. Reconcilation Algorithm
 
 // ** The reconciliation algorithm in React is the process of updating the UI efficiently when the component’s state or props change. React compares the current virtual DOM with the previous one and determines the minimum number of changes necessary to update the actual DOM.
+
+//! Server-Side Rendering (SSR):
+/*
+The server builds the full HTML for every request 
+and sends it to the browser.
+
+Best for pages that always need fresh data
+and good SEO — e.g., product pages, blogs, and search results.
+*/
+
+//! Client-Side Rendering (CSR):
+/*
+The server sends a blank HTML page + JavaScript.
+The browser runs the JavaScript and renders the UI.
+
+Best for interactive apps, dashboards, and authenticated pages 
+where SEO is not a priority.
+*/
+
+//! Static Site Generation (SSG):
+/*
+The HTML is generated once at build time and reused for all users.
+No server work on each request.
+
+Best for pages that rarely change — e.g., documentation,
+marketing pages, blogs with stable content.
+*/
+
+//! Incremental Static Regeneration (ISR):
+/*
+The page is pre-rendered like SSG, 
+but Next.js can automatically re-generate it in the background 
+after a set time.
+
+Best for large content sites where SEO matters 
+but data changes occasionally — e.g., news, listings, product catalogs.
+*/
+
+//! ✅ Event Delegation (Simple Explanation)
+
+// Event Delegation is a technique where instead of adding event listeners to many child elements,
+// you add one event listener to their parent element and detect which child triggered the event.
+
+// without
+
+document.querySelectorAll(".btn").forEach((btn) => {
+  btn.addEventListener("click", () => console.log("Button clicked"));
+});
+
+// With
+document.querySelector("#parent").addEventListener("click", (e) => {
+  if (e.target.matches(".btn")) {
+    console.log("Button clicked");
+  }
+});

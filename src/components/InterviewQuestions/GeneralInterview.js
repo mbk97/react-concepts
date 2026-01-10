@@ -32,7 +32,10 @@
 
 // ! What do you know about the organisation
 
+// * I want to join a bank where digital innovation is a priority. Signature Bank is growing its digital channels, and I want to contribute to building stable, secure, and user-friendly digital products using my experience.
+
 // ! Core values of our organization
+// Professionalism, Audacity, Creativity,Trust, Service Excellence
 
 // ! What would an excellent performance look like in this role
 

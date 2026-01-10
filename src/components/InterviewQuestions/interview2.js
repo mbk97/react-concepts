@@ -354,7 +354,7 @@ function Aphp() {
 
 //! try-catch in hooks is more focused on handling errors in specific blocks of logic, like API calls or synchronous operations.
 
-// ! React state batching (concurrent updates)
+//! React state batching (concurrent updates)
 
 // ** React's state batching is an optimization where multiple state updates are grouped (or batched) together and applied in one re-render instead of triggering multiple renders. This behavior helps improve performance, especially when there are frequent state changes, by minimizing the number of re-renders.
 
